@@ -1,6 +1,6 @@
 // API/TMDBApi.js
 
-const API_TOKEN = "6263349c68e88d0f8daba8fbe9d4d154";
+const API_TOKEN = "get your own";
 
 export function getFilmsFromApiWithSearchedText (text, page) {
   const url = 'https://api.themoviedb.org/3/search/movie?api_key=' + API_TOKEN + '&language=en&query=' + text + "&page=" + page
